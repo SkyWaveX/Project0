@@ -6,39 +6,55 @@
         <style>
 
             .links {
-                float: right;
-                color: black;
-                font-family: Arial, Helvetica, sans-serif;
-                font-size: 13px;
-                /*margin: 15px;*/
-                margin-top: 14px;
-                margin-right: 15px;
-                text-align: right;
                 text-decoration: none;
-                
-                /*border: 1px solid blue;*/
-                /*width: 150px;*/
-                /*height: 100px;*/
-                /*background-color: orange;*/
-                /*padding: 20px;*/
+                padding-left: 10px;
+                color: black
             }
+            
             .links:hover{
                 text-decoration: underline;
             }
+
+            .logo {
+                display: block;
+                margin-top: 50px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .box {
+                display: block;
+                border: 1px solid purple;
+            }
+
+            .header{
+                margin-top: 20px;
+                margin-right: 20px;
+                text-align: right;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 13px;
+            }
+
+
+
 
         </style>
     
     </head>
     <body>
-        <div>
-            <a class="links" href="advanced_search.html">Розширений пошук</a><a class="links" href="image_search.html">Зображення</a>
+        <div class=header>
+            <a class="links" href="image_search.html">Зображення</a>
+            <a class="links" href="advanced_search.html">Розширений пошук</a>
         </div>
         
-
         <div>
+            <img class="logo" src="googlelogo_color_272x92dp.png" alt="Ґoogle logo">    
+            
+        </div>
+        
+        <div class="box">
             <form action="https://google.com/search">
                 <input type="text" name="q">
-                <input type="submit" value="Google Search">
+                <input type="submit" value="Пошук Ґoogle">
             </form>
         </div>
         
