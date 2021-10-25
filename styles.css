@@ -46,6 +46,12 @@ input[type="text"] {
     outline: none;
 }
 
+input[type=text]:focus {
+    border: none;
+    box-shadow: 0px 0px 6px gainsboro;
+        
+}
+
 input[type="submit"] {
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
