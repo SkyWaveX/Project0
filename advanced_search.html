@@ -4,22 +4,18 @@
         <title>Розширений пошук Ґoogle</title>
         <link rel="stylesheet" href="styles_advanced_search.css">
     </head>
+    
     <body>
-        <div class=header> <!-- Header with links to Ґoogle-->
-            <a class="links" href="index.html"></a>
-            <button></button>
+        <div class=header> <!-- Header with link to Ґoogle-->
+            <button type="button" onclick="window.location.href='index.html'"></button>
         </div>
         
-        
-        <div> <!-- Logo -->
-            <!-- <img class="logo_image" src="googlelogo_image_310_94dp.png" alt="Ґoogle зображння logo"> -->
-        </div>
-        
-        <div class="box"> Розширений пошук </div> <!-- Lable -->
+        <div class="title"> Розширений пошук </div> <!-- Lable -->
 
         <div class="spacer"></div> <!-- Spacer -->
         
-        <form action="https://google.com/search">
+        <!-- Search fields -->
+        <form action="https://google.com/search"> 
             
             <div id="grid">
                 <div class="grid-item-header1">Знайти сторінки із… </div>
@@ -51,29 +47,10 @@
                 <div class="grid-item-comment">Поставте знак мінус перед небажаними словами: -гризун, -"Джек Рассел"</div>
             </div>
             
-            <!--
             <div>
-                what
-                <label for="q1">усіма цими словами:      </label> 
-                <input type="text" name="q1" size="65">
-            </div>
-            <div>
-                <label for="q2">саме цим словом або фразою: </label> 
-                <input type="text" name="q2" size="65">
-            </div>
-            <div>
-                <label for="q3">будь-яким із цих слів:     </label> 
-                <input type="text" name="q3" size="65">
-            </div>
-            <div>
-                <label for="q4">жодне з цих слів:         </label> 
-                <input type="text" name="q4" size="65">
-            </div>
-                -->
-            
-            <div>
-                <input type="submit" value="Розширений пошук">
+                <input type="submit" value="Розширений пошук" autofocus="on">
             </div>
         </form>
+
     </body>
 </html>
